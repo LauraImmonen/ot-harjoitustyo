@@ -1,1 +1,1 @@
-**Päivä:** _20.3.25_ **Tuntimäärä:** _2.5h_ **Tehty** _vaatimusmäärittely, tietokantojen suunnittelu_ 
+- **Päivä:** 20.3.25  **Tuntimäärä:** 2.5h  **Tehty** vaatimusmäärittely, tietokantojen suunnittelu
