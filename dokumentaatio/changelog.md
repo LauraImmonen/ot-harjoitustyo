@@ -1,0 +1,9 @@
+- applikaation rakenne
+- sqlite tietokannan luonti ja yhteys
+- sqlite taulujen luonti
+- käyttöliittymät: welcome, create account, login
+- käyttäjän luonti logiikka
+- sisäänkirjautumislogiikka
+- tein testi tietokannan ja taulut
+- tein ensimmäisen testin joka tarkastaa toimiiko uuden käyttäjän luominen kun käyttäjänimeä ei ole tietokannassa
+- äivitin READ.ME-kansion ja loin sinne ohjeet

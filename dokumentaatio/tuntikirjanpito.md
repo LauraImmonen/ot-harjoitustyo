@@ -1,1 +1,5 @@
-- **Päivä:** 20.3.25  **Tuntimäärä:** 2.5h  **Tehty:** vaatimusmäärittely, tietokantojen suunnittelu
+- **Päivä:** 20.3.25 **Tuntimäärä:** 2.5h **Tehty:** vaatimusmäärittely, tietokantojen suunnittelu
+- **Päivä:** 24.3.25 **Tuntimäärä:** 3.5h **Tehty:** lisätty uusia hakemistoja ja tiedostoja (yritin tehdä aplikaation rakenteen suht valmiiksi). Alustettu poetry ja vaadittavat dependencies projektille. Luotu tietokanta ja taulut. Lisätty tietokanta connection.
+- **Päivä:** 26.3.25 **Tuntimäärä:** 5.5h **Tehty:** queries, welcome_page, Login_page, Tkinterin opettelua, luekkien teon opettelua, index.py
+- **Päivä:** 27.3.25 **Tuntimäärä:** 5.5h **Tehty:** sain coveragen toimimaan, tasks.py funktioita, pytest.ini, paljon kokeiluja jotka eivät loppupeleissä toimineetkaan.
+- **Päivä:** 28.3.25 **Tuntimäärä:** 6.5h **Tehty:** muokattu login_page ja create_account_page, lisätty error messages, sovelluslogiikka accunt_service, pystyy nyt luomaan käyttäjätunnuksen. Testi db ja taulut, tein ensimmäisen testin joka testaa että pystyy luomaan käyttäjän jonka käyttäjänimeä ei ole vielä tietokannassa. Lisäsin READ.ME-kansioon. READ.ME:n ja changelogin päivittäminen.
