@@ -91,7 +91,7 @@ class CreateAccountPage:
 
         if message == "Username already exists! Please choose another username.":
             self.show_message(message)
-        elif message == "Account created succssfully!":
+        elif message == "Account created successfully!":
             self.show_message(message)
             self.root.after(1400, self.redirect_to_login)
 
