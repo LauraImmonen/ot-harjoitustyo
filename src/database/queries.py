@@ -23,6 +23,7 @@ def make_account(username, password):
 def login_by_username(username):
     connection = get_connection()
     cursor = connection.cursor()
+    create_table()
     cursor.execute("""SELECT password FROM users WHERE username = ?""", (username,))
     user = cursor.fetchone()
     connection.close()

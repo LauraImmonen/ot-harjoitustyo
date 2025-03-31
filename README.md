@@ -13,37 +13,27 @@ Olisi hyvä saada palautetta siitä mitä kaikkea tulisi testata, esim tuleeko u
 
 Repositorio asennusohjeet:
 
-Luo hakemisto tälle repolle esim:
+Avaa ensin terminaalissa tmp kansio komennolla: (muuten SQLite sanoo database locked)
 
 ```
-mkdir testi
-```
-
-ja luo reitti sille:
-
-```
-cd testi
+cd /tmp
 ```
 
 Kloonaa repositorio omalle koneellesi komennolla
 
 ```
 git clone https://github.com/LauraImmonen/ot-harjoitustyo.git
-
 ```
 
-Tämän jälkeen avaa reitti hakemistoon:
+siirry sitten vielä repon sisälle komennolla:
 
 ```
-cd testi/
-
+cd ot-harjoitustyo/
 ```
-
-(näet komennolla ls, oletko repositiossa, pitäisi näkyä kaikki sovelluksen osat esim READ.ME, tasks.py, src. Jos ei näy, niin sinun pitää mennä ns syvemmälle, avaa siis tiedosto koneella ja katso reitti, se voi olla esim. Documents/testi/repon_nimi/ ja yritä sitten: cd Documents/testi/repon_nimi/)
 
 Jos tietokoneessasi ei ole Poetry:ä, tulee se asentaa ensin.
 
-Asenna riippuvuudet komennolla:
+Sen jälkeen voit asentaa riippuvuudet komennolla:
 
 ```
 poetry install
