@@ -1,8 +1,9 @@
-from database.create_database import get_connection
+from database.create_database import get_connection, create_table
 
 def user_exists(username):
     connection = get_connection()
     cursor = connection.cursor()
+    create_table()
     cursor.execute("""SELECT COUNT(*) FROM users WHERE username = (?)""", (username,))
     user_count = cursor.fetchone()
     connection.close()

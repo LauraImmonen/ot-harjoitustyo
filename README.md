@@ -30,33 +30,23 @@ Kloonaa repositorio omalle koneellesi komennolla
 ```
 git clone https://github.com/LauraImmonen/ot-harjoitustyo.git
 
-Tämän jälkeen avaa reitti hakemistoon
-
 ```
 
+Tämän jälkeen avaa reitti hakemistoon:
+
+```
 cd testi/
 
 ```
 
 (näet komennolla ls, oletko repositiossa, pitäisi näkyä kaikki sovelluksen osat esim READ.ME, tasks.py, src. Jos ei näy, niin sinun pitää mennä ns syvemmälle, avaa siis tiedosto koneella ja katso reitti, se voi olla esim. Documents/testi/repon_nimi/ ja yritä sitten: cd Documents/testi/repon_nimi/)
-```
+
+Jos tietokoneessasi ei ole Poetry:ä, tulee se asentaa ensin.
 
 Asenna riippuvuudet komennolla:
 
 ```
 poetry install
-```
-
-Suorita vaadittavat alustustoimenpiteet komennolla:
-
-```
-poetry run invoke build
-```
-
-Käynnistä sovellus komennolla:
-
-```
-poetry run invoke start
 ```
 
 # Ohjelman suorittaminen
