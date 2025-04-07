@@ -1,6 +1,5 @@
 from database.queries import user_exists, make_account, login_by_username
 
-
 def create_user(username, password):
     if user_exists(username):
         return "Username already exists! Please choose another username."
@@ -13,10 +12,8 @@ def validate_login(username, password):
 
     if user is None:
         return "Username not found!"
-    elif user[0] != password:
+    if user[0] != password:
         return "Incorrect password!"
-    else:
-        return "Logged in successfully!"
+    return "Logged in successfully!"
 #AI generated code stops
-
 

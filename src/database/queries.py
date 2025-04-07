@@ -47,3 +47,11 @@ def add_transaction(user_id, type, amount):
     connection.commit()
     connection.close()
 
+def get_budget(username):
+    connection = get_connection()
+    cursor = connection.cursor()
+    cursor.execute("""SELECT budget FROM users WHERE username = ?""", (username,))
+    budget = cursor.fetchone()
+    connection.close()
+
+    return budget[0]

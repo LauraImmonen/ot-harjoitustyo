@@ -5,9 +5,10 @@ Aikeenani on tehdä desktop-sovellus joka toimii budjetointi-sovelluksena.
 
 Tällä hetkellä sovelluksessa on welcome page jolla käyttäjä voi valita onko hänellä jo tili vai ei.
 Hän voi tällä hetkellä myös luoda käyttäjätunnuksen ja sieltä hänet uudelleenohjataan kirjautumissivulle.
-Kirjautumissivulta ei toistaiseksi pääse pidemmälle.
+Kirjautumissivulta käyttäjä uudelleenohjataan kotisivulle, jossa hän voi asettaa kuukausibudjetin jos sitä ei ole, ja jos on niin se näkyy sivulla. Budjetti asetetaan erillisellä sivulla jonne käyttäjä uudelleenohjataan napin painalluksella.
+Käyttäjä pystyy myös kirjautumaan ulos kotisivulta.
 
-Olisi hyvä saada palautetta siitä mitä kaikkea tulisi testata, esim tuleeko ui kansiossa olevia tiedostoja testata myös vai pelkästään sovelluslogiikkaa joka on kansiossa services, jota ui-tiedostot käyttävät. En ole ennen tehnyt sovellukseen testejä joten tämä on kaikki minulle aivan uutta.
+Olisi hyvä saada palautetta siitä, tulisiko minun testata vain services kansiossa olevia funktioita, jotka sisältävät sovelluslogiikan.
 
 # Asennus
 

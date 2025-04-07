@@ -1,3 +1,5 @@
+**Viikko 3**
+
 - applikaation rakenne
 - sqlite tietokannan luonti ja yhteys
 - sqlite taulujen luonti
@@ -6,4 +8,11 @@
 - sisäänkirjautumislogiikka
 - tein testi tietokannan ja taulut
 - tein ensimmäisen testin joka tarkastaa toimiiko uuden käyttäjän luominen kun käyttäjänimeä ei ole tietokannassa
-- äivitin READ.ME-kansion ja loin sinne ohjeet
+- päivitin READ.ME-kansion ja loin sinne ohjeet
+
+## **Viikko 4**
+
+- pylint käyttöönotto
+- kotisivu on nyt olemassa ja sinne pääsee kirjautumaan
+- käyttäjä pystyy asettamaan itselleen kiinteän kuukausi-budjetin
+- käyttäjä pystyy kirjautumaan ulos kotisivulta

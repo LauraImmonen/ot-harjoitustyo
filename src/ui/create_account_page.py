@@ -80,7 +80,7 @@ class CreateAccountPage:
     #made by ChatGPT, modified by me
     def show_message(self, message, color="pink"):
         self.message_label.config(text=message, bg=color)
-        self.root.after(2000, lambda: self.message_label.config(text=""))
+        self.root.after(1400, lambda: self.message_label.config(text=""))
      #AI generated code ends
 
     def create_account(self):

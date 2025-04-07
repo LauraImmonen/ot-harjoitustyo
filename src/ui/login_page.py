@@ -1,5 +1,6 @@
 import tkinter as tk
 from services.account_service import validate_login
+from ui.session import set_current_user
 
 #I used the welcome_page as a reference while making this code
 
@@ -79,7 +80,7 @@ class LoginPage:
     #code made by ChatGPT
     def show_message(self, message, color="pink"):
         self.message_label.config(text=message, bg=color)
-        self.root.after(2000, lambda: self.message_label.config(text=""))
+        self.root.after(1400, lambda: self.message_label.config(text=""))
     #AI generated code stops
 
     def login(self):
@@ -88,9 +89,10 @@ class LoginPage:
 
         message = validate_login(username, password)
 
-        if message == "Incorrect password!" or "Username not found!":
+        if message in ("Incorrect password!", "Username not found!"):
             self.show_message(message)
         elif message == "Logged in successfully!":
+            set_current_user(username)
             self.show_message(message)
             self.root.after(1400, self.redirect_to_home_page)
 
