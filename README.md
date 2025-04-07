@@ -5,10 +5,14 @@ Aikeenani on tehdä desktop-sovellus joka toimii budjetointi-sovelluksena.
 
 Tällä hetkellä sovelluksessa on welcome page jolla käyttäjä voi valita onko hänellä jo tili vai ei.
 Hän voi tällä hetkellä myös luoda käyttäjätunnuksen ja sieltä hänet uudelleenohjataan kirjautumissivulle.
-Kirjautumissivulta käyttäjä uudelleenohjataan kotisivulle, jossa hän voi asettaa kuukausibudjetin jos sitä ei ole, ja jos on niin se näkyy sivulla. Budjetti asetetaan erillisellä sivulla jonne käyttäjä uudelleenohjataan napin painalluksella.
+Kirjautumissivulla käyttäjä kirjautuu sisään sovellukseen ja hänet uudelleenohjataan kotisivulle, 
+jossa hän voi asettaa kuukausibudjetin jos sitä vielä ei ole, ja jos se on jo asetettu, näkyy se sivulla. 
+Budjetti asetetaan erillisellä sivulla jonne käyttäjä uudelleenohjataan napin painalluksella.
 Käyttäjä pystyy myös kirjautumaan ulos kotisivulta.
 
 Olisi hyvä saada palautetta siitä, tulisiko minun testata vain services kansiossa olevia funktioita, jotka sisältävät sovelluslogiikan.
+
+Linkki arkkitehtuuri tiedostoon: [arkkitehtuuri.md] (https://github.com/LauraImmonen/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
 # Asennus
 
