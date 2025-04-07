@@ -12,7 +12,7 @@ Käyttäjä pystyy myös kirjautumaan ulos kotisivulta.
 
 Olisi hyvä saada palautetta siitä, tulisiko minun testata vain services kansiossa olevia funktioita, jotka sisältävät sovelluslogiikan.
 
-Linkki arkkitehtuuri tiedostoon: [arkkitehtuuri.md] (https://github.com/LauraImmonen/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+Linkki arkkitehtuuri tiedostoon: [arkkitehtuuri.md](https://github.com/LauraImmonen/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
 # Asennus
 
