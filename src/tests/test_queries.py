@@ -1,5 +1,6 @@
 import unittest
 from services.account_service import create_user, validate_login
+from services.budget_service import create_budget, check_budget
 from database.create_database import get_connection, create_table
 
 class TestAccountService(unittest.TestCase):
@@ -8,9 +9,11 @@ class TestAccountService(unittest.TestCase):
         self.password = "123"
         self.wrong_username = "wrong_username"
         self.wrong_password = "456"
+        self.budget = 1000
         get_connection()
         create_table()
         self.delete_test_user()
+        self.delete_test_expenses()
 
     def delete_test_user(self):
         connection = get_connection()
@@ -38,5 +41,21 @@ class TestAccountService(unittest.TestCase):
         create_user(self.username, self.password)
         self.assertEqual(validate_login(self.wrong_username, self.password), "Username not found!")
 
+    def delete_test_expenses(self):
+        connection = get_connection()
+        cursor = connection.cursor()
+        cursor.execute("""DELETE FROM expenses
+                       WHERE user_id = (SELECT id
+                       FROM users WHERE username = ?)""", (self.username,))
+        connection.commit()
+        connection.close()
 
+    def test_create_budget(self):
+        create_user(self.username, self.password)
+        self.assertEqual(create_budget(self.username, self.budget), "Budget created successfully!")
+
+    def test_get_budget(self):
+        create_user(self.username, self.password)
+        create_budget(self.budget, self.username)
+        self.assertEqual(check_budget(self.username), self.budget)
 

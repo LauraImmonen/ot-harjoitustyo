@@ -5,8 +5,9 @@
 **Sovelluksen tarkoitus**
 
 - Sovellukseni on budjetointi-sovellus, jonne käyttäjä voi tehdä tilin ja kirjautua. (Tehty)
-- Sovelluksessa käyttäjä voi asettaa kiinteän kuukausibudjetin (Tehty) ja lisätä tuloja ja menoja.
-- Sovellus näyttää loppuraportin, jossa se ilmoittaa montako euroa käyttäjä on ylittänyt budjetin tai montako euroa käytäjä on säästänyt tässä kuussa.
+- Sovelluksessa käyttäjä voi asettaa kiinteän kuukausibudjetin ja lisätä menoja. (Tehty)
+- Sovelluksessa näkee tämän kuun menot listana, missä näkyy menon kuvaus ja määrä euroina.
+- Sovellus näyttää loppuraportin, jossa se ilmoittaa montako euroa käyttäjä on ylittänyt budjetin tai montako euroa käytäjä on säästänyt tässä kuussa. (Tehty)
 - Sovellukseni kieli on englanti.
 
 ---
@@ -18,13 +19,14 @@ Eli etusivu, sisäänkirjautuminen, käyttäjätilin luominen, kotisivu ja budje
 
 ![budget_app_kayttoliittyma1](https://github.com/user-attachments/assets/e5faee6d-2d09-480a-9018-6a7f349578a4)
 
-![budget_app_vaatimusmaarittely2](https://github.com/user-attachments/assets/be0fbf3c-9c6f-4a55-989e-cdef3e48b05f)
+(uusi home page kuva)
 
 ![budget_app_kayttoliittyma3](https://github.com/user-attachments/assets/59314819-6b21-4cae-919a-0d59a69aee2c)
 
 Sovellus aukeaa etusivulle jossa toivotetaan käyttäjä tervetulleeksi sovellukseen ja kysytään onko hänellä jo tiliä, jos on, hän voi kirjautua sisään, jos ei hän voi luoda tilin ja sen luotua hänet uudelleenohjataan sisäänkirjautumissivulle.
 
-Sisäänkirjauduttuaan käyttäjälle avautuu kotisivu jossa voi kirjautua ulos, luoda kiinteän kuukausibudjetin tai nähdä jo olemassa olevan budjetin, sekä nykyisen kuukauden loppuraportin ja tarkastella ja lisätä tämän kuukauden tuloja ja menoja.
+Sisäänkirjauduttuaan käyttäjälle avautuu kotisivu jossa voi kirjautua ulos, luoda kiinteän kuukausibudjetin tai nähdä jo olemassa olevan budjetin, sekä nykyisen kuukauden loppuraportin ja tarkastella ja lisätä tämän kuukauden menoja.
+Tältä sivulta voi myös kirjautua ulos "logout" napin painalluksella, joka uudelleenhjaa käyttäjän takaisin etusivulle.
 
 Jos käyttäjällä ei vielä ole budjettia, hän painaa make a budjet/create a budget näppäintä joka uudelleenohjaa hänet sivulle, jossa hän voi luoda kiinteän kuukausibudjetin itselleen. Kun se on luotu, hänet uudelleenohjataan takaisin kotisivulle.
 
@@ -34,5 +36,5 @@ Jos käyttäjällä ei vielä ole budjettia, hän painaa make a budjet/create a 
 
 - Sovellukseen voisi lisätä että voi luoda joka kuulle oman budjetin jos haluaa tai muokata vanhaa budjettia
 - Tulot ja menot voisi laittaa kategorioihin
-- Loppuraportissa voisi esim. näkyä piirakkamallina tulot ja menot kategorioittain ja prosenteittain
-- Voisi selata edeltävien kuukausien raportteja ja tuloja ja menoja. Nykyisessä versiossa näkyy vain sen kuukauden raportti jota eletään. Esim. Nyt on Maaliskuu joten käyttäjä näkee vain maaliskuun datan
+- Loppuraportissa voisi esim. näkyä piirakkamallina menot kategorioittain ja prosenteittain
+- Voisi selata edeltävien kuukausien raportteja ja menoja. Nykyisessä versiossa näkyy vain sen kuukauden raportti jota eletään. Esim. Nyt on Maaliskuu joten käyttäjä näkee vain maaliskuun datan

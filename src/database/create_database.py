@@ -18,18 +18,15 @@ def create_table():
                         password TEXT NOT NULL,
                         budget INTEGER DEFAULT 0)''')
 
-    cursor.execute('''CREATE TABLE IF NOT EXISTS transactions (
+    cursor.execute('''CREATE TABLE IF NOT EXISTS expenses (
                         id INTEGER PRIMARY KEY,
                         user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
-                        type TEXT CHECK (type IN ('income', 'expense')),
                         amount INTEGER NOT NULL,
+                        description TEXT,
                         date DATE DEFAULT CURRENT_DATE)''')
 
     connection.commit()
     connection.close()
-
-
-
 
 if __name__ == '__main__':
     create_table()

@@ -9,7 +9,7 @@ class WelcomePage:
     def __init__(self, root):
         self.root = root
         self.root.title("Budgeting App")
-        self.root.geometry("800x500")
+        self.root.geometry("900x600")
 
         self.styles = {
             "bg": "#333333",
@@ -23,7 +23,6 @@ class WelcomePage:
         self.frame.pack(fill="both", expand=True)
 
         self._initialize_ui()
-
 
     def _initialize_ui(self):
         welcome_label = tk.Label(
@@ -61,7 +60,6 @@ class WelcomePage:
             command=self.redirect_to_create_account
         )
         no_button.pack(pady=10)
-
 
     def redirect_to_login(self):
         self._switch_view(LoginPage)

@@ -39,11 +39,11 @@ def add_budget(budget, username):
     connection.close()
 #AI generated code stops
 
-def add_transaction(user_id, type, amount):
+def add_expense(user_id, amount, description):
     connection = get_connection()
     cursor = connection.cursor()
-    cursor.execute("""INSERT INTO transactions user_id, type,
-                   amount VALUES (?, ?, ?)""", (user_id, type, amount))
+    cursor.execute("""INSERT INTO expenses (user_id, amount, description)
+                  VALUES (?, ?, ?)""", (user_id, amount, description))
     connection.commit()
     connection.close()
 
@@ -55,3 +55,24 @@ def get_budget(username):
     connection.close()
 
     return budget[0]
+
+def get_user_id(username):
+    connection = get_connection()
+    cursor = connection.cursor()
+    cursor.execute("""SELECT id FROM users WHERE username = ?""", (username,))
+    user_id = cursor.fetchone()
+    connection.close()
+
+    return user_id[0]
+
+def current_month_expenses(user_id):
+    connection = get_connection()
+    cursor = connection.cursor()
+    #AI generated code starts (by ChatGPT)
+    cursor.execute("""SELECT SUM(amount) FROM expenses
+        WHERE user_id = ? AND strftime('%Y-%m', date) = strftime('%Y-%m', 'now')""", (user_id,))
+    #AI generated code stops
+    expenses = cursor.fetchone()
+    connection.close()
+
+    return expenses[0] or 0

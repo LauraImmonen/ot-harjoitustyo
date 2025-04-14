@@ -16,4 +16,3 @@ def validate_login(username, password):
         return "Incorrect password!"
     return "Logged in successfully!"
 #AI generated code stops
-

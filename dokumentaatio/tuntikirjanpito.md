@@ -6,4 +6,7 @@
 - **Päivä:** 31.3.25 **Tuntimäärä:** 2h **Tehty:** fiksattu create_account_page ja queries.py. Testattu applikaation toimivuus virtuaaliympäristössä.
 - **Päivä:** 5.4.2025 **Tuntimäärä:** 4h **Tehty:** pylint käyttöönotto ja pylint virheiden korjaus. Kotisivu on nyt olemassa ja sinne pääsee kirjautumaan. Käyttäjä pystyy tekemään oman budjetin.
 - **Päivä:** 6.4.2025 **Tuntimäärä:** 1h **Tehty:** Lisää testejä, testaa nyt sisäänkirjautumisen ja tilin luonnin kun kyseinen username on jo olemassa. Pakkausrakenne kaavion teko.
-  Yht: 30.5h
+- **Päivä:** 9.4.2025 **Tuntimäärä:** 3.5h **Tehty:** Korjattu pylint virheet. Lisätty uusia queries ja budget_services funktioita.
+- **Päivä:** 10.4.2025 **Tuntimäärä:** 1.5h **Tehty:** muokattu svelluslogiikkaa, poistettu turhat income kohdat. Lisätty add expense home_page sivulle. Näkee loppuraportin.
+
+  Yht: 36.5h

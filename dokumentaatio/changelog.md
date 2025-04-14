@@ -1,4 +1,4 @@
-**Viikko 3**
+## **Viikko 3**
 
 - applikaation rakenne
 - sqlite tietokannan luonti ja yhteys
@@ -16,3 +16,10 @@
 - kotisivu on nyt olemassa ja sinne pääsee kirjautumaan
 - käyttäjä pystyy asettamaan itselleen kiinteän kuukausi-budjetin
 - käyttäjä pystyy kirjautumaan ulos kotisivulta
+
+## **Viikko 5**
+
+- uusia sql-kyselyitä
+- käyttäjä näkee onko mennyt yli budjetin tai säästänyt rahaa tässä kuussa
+- käyttäjä pystyy lisäämään menoja
+- käyttäjä näkee loppuraportin

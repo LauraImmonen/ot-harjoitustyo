@@ -8,7 +8,7 @@ class CreateAccountPage:
     def __init__(self, root):
         self.root = root
         self.root.title("Create Account")
-        self.root.geometry("800x500")
+        self.root.geometry("900x600")
 
         self.styles = {
             "bg": "#333333",
