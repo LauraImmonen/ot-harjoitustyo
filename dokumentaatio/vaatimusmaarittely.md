@@ -19,7 +19,7 @@ Eli etusivu, sisäänkirjautuminen, käyttäjätilin luominen, kotisivu ja budje
 
 ![budget_app_kayttoliittyma1](https://github.com/user-attachments/assets/e5faee6d-2d09-480a-9018-6a7f349578a4)
 
-(uusi home page kuva)
+![home_page](https://github.com/user-attachments/assets/eb6f7144-ec95-48c9-8e54-eec41e2f240c)
 
 ![budget_app_kayttoliittyma3](https://github.com/user-attachments/assets/59314819-6b21-4cae-919a-0d59a69aee2c)
 
