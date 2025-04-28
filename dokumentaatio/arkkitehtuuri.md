@@ -27,20 +27,24 @@ Jokainen näkymä on erillinen luokka. Käyttöliittymä eristetty sovelluslogii
 
 Sovellukseni käyttää SQLite tietokantaa jossa on 2 taulua users ja expenses. Kaikki tietokantojani koskeva koodi löytyy kansioista "database". "create_database.py"-tiedostosta. Tiedosto sisältää koodin, joka luo tietokannan ja yhteyden tietokantaan sekä luo taulut. "queries.py" -tiedosto sisältää kaikki SQLite kyselyt, joilla muokataan tietokannan tauluja tai haetaan dataa niistä.
 
-# Sovelluksen päätoiminalliuudet
+# Sovelluksen päätoiminallisuudet
 
 Tilin luominen:
 
-(lisää kuva)
+![create account](https://github.com/user-attachments/assets/c70577f0-704a-4c53-8ad9-2c0b9d1a50e6)
+
 
 Sisäänkirjautuminen:
 
-(lisää kuva)
+![Login](https://github.com/user-attachments/assets/3611e9e9-7389-4d21-8f54-fc23ff16b239)
+
 
 Budjetin luominen:
 
-(lisää kuva)
+![create budget](https://github.com/user-attachments/assets/65bb06b0-3b5f-41aa-92b9-9210e9cdcf94)
+
 
 Menojen lisääminen:
 
-(lisää kuva)
+![add expense](https://github.com/user-attachments/assets/22eaa88a-66f7-4e7f-ad50-8d1c4405c7e4)
+
