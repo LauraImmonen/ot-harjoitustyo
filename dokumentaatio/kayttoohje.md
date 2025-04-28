@@ -87,3 +87,7 @@ Voit lisätä kuluja lisäämällä numeerisen euromäärän ja kirjoittaa kuvau
 Tämän jälkeen näet kotisivun ala-osassa kuukauden kulut listana, ja näet paljonko rahaa olet säästänyt, tai paljonko yli budjetin olet mennyt tässä kuussa "Final report"-osiosta joka löytyy sivun yläosasta.
 
 ![home_page_past_expenses](https://github.com/user-attachments/assets/e51e269d-bb95-425a-a4ad-62a03b268ce0)
+
+## **Uloskirjautuminen**
+
+Käyttäjä voi kirjautua tililtään ulos painamalla "Logout"-nappia kotisivun oikeasta ylälaidasta. 
