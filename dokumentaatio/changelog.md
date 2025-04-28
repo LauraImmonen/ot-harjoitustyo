@@ -23,3 +23,11 @@
 - käyttäjä näkee onko mennyt yli budjetin tai säästänyt rahaa tässä kuussa
 - käyttäjä pystyy lisäämään menoja
 - käyttäjä näkee loppuraportin
+
+## **Viikko 6**
+
+- uusi sql kysely
+- uusia testejä
+- käyttäjä näkee kyseisen kuukauden lisätyt menot
+- coverage-report 100%
+- lisätty käyttöohjeet

@@ -8,7 +8,7 @@ class LoginPage:
     def __init__(self, root):
         self.root = root
         self.root.title("Login")
-        self.root.geometry("900x600")
+        self.root.geometry("1000x800")
 
         self.styles = {
             "bg": "#333333",

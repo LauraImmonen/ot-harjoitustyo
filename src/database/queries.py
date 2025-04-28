@@ -56,6 +56,19 @@ def get_budget(username):
 
     return budget[0]
 
+def get_user_expenses(user_id):
+    connection = get_connection()
+    cursor = connection.cursor()
+    cursor.execute("""
+        SELECT amount, description, date FROM expenses
+        WHERE user_id = ?
+        AND strftime('%Y-%m', date) = strftime('%Y-%m', 'now')
+    """, (user_id,))
+    expenses = cursor.fetchall()
+    connection.close()
+
+    return expenses
+
 def get_user_id(username):
     connection = get_connection()
     cursor = connection.cursor()

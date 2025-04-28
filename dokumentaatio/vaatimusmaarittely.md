@@ -6,8 +6,8 @@
 
 - Sovellukseni on budjetointi-sovellus, jonne käyttäjä voi tehdä tilin ja kirjautua. (Tehty)
 - Sovelluksessa käyttäjä voi asettaa kiinteän kuukausibudjetin ja lisätä menoja. (Tehty)
-- Sovelluksessa näkee tämän kuun menot listana, missä näkyy menon kuvaus ja määrä euroina.
-- Sovellus näyttää loppuraportin, jossa se ilmoittaa montako euroa käyttäjä on ylittänyt budjetin tai montako euroa käytäjä on säästänyt tässä kuussa. (Tehty)
+- Sovelluksessa näkee tämän kuun menot listana, missä näkyy menon kuvaus. (Tehty)
+- Sovellus näyttää loppuraportin, jossa se ilmoittaa montako euroa käyttäjä on ylittänyt budjetin tai montako euroa käyttäjä on säästänyt tässä kuussa. (Tehty)
 - Sovellukseni kieli on englanti.
 
 ---
