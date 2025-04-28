@@ -16,7 +16,7 @@ Käyttäjä pystyy myös kirjautumaan ulos kotisivulta. Käyttäjä pystyy myös
 - Linkki arkkitehtuuri tiedostoon: [arkkitehtuuri.md](https://github.com/LauraImmonen/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 - Linkki tuntikirjanpitoon: [tuntikirjanpito](https://github.com/LauraImmonen/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 - Linkki releaseen: [release viikko 5](https://github.com/LauraImmonen/ot-harjoitustyo/releases/tag/Viikko5)
-- Käyttöohje: [käyttöohje]()
+- Käyttöohje: [käyttöohje](https://github.com/LauraImmonen/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
 
 # Asennus
 
