@@ -61,7 +61,7 @@ Lisää tilisi tiedot (käyttäjänimi ja salasana) ja paina "login"-nappia. Jos
 
 ## **Budjetin luominen**
 
-Kotinäkymässä ylhäällä näkyy "create budget"-nappi, paina sitä niin pääset sivulle, jossa voit luoda kiinteän kuukausibudjetin itsellesi.
+Kotinäkymässä ylhäällä näkyy "create monthly budget"-nappi, paina sitä niin pääset sivulle, jossa voit luoda kiinteän kuukausibudjetin itsellesi.
 
 ![home_page_before](https://github.com/user-attachments/assets/5d3ef69a-4f82-4f2d-96cf-99fbeb025b99)
 
@@ -83,6 +83,7 @@ Voit lisätä kuluja lisäämällä numeerisen euromäärän ja kirjoittaa kuvau
 ![home_page_add_expense](https://github.com/user-attachments/assets/dd1828a1-710a-4036-8045-b0a9bd2d8eb7)
 
 
-Tämän jälkeen näet kotisivun ala-osassa kuukauden kulut listana, ja näet paljonko rahaa olet säästänyt, tai paljonko yli budjetin olet mennyt tässä kuussa.
+## **Kulujen tarkastelu ja loppuraportti**
+Tämän jälkeen näet kotisivun ala-osassa kuukauden kulut listana, ja näet paljonko rahaa olet säästänyt, tai paljonko yli budjetin olet mennyt tässä kuussa "Final report"-osiosta joka löytyy sivun yläosasta.
 
 ![home_page_past_expenses](https://github.com/user-attachments/assets/e51e269d-bb95-425a-a4ad-62a03b268ce0)
