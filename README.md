@@ -15,7 +15,7 @@ Käyttäjä pystyy myös kirjautumaan ulos kotisivulta. Käyttäjä pystyy myös
 - Linkki vaatimusmäärittelyyn: [vaatimusmäärittely](https://github.com/LauraImmonen/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 - Linkki arkkitehtuuri tiedostoon: [arkkitehtuuri.md](https://github.com/LauraImmonen/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 - Linkki tuntikirjanpitoon: [tuntikirjanpito](https://github.com/LauraImmonen/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
-- Linkki releaseen: [release viikko 5](https://github.com/LauraImmonen/ot-harjoitustyo/releases/tag/Viikko5)
+- Linkki uusimpaan releaseen: [release viikko 6](https://github.com/LauraImmonen/ot-harjoitustyo/releases/tag/Viikko_6)
 - Käyttöohje: [käyttöohje](https://github.com/LauraImmonen/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
 
 # Asennus
