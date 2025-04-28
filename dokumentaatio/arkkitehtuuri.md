@@ -29,22 +29,22 @@ Sovellukseni käyttää SQLite tietokantaa jossa on 2 taulua users ja expenses. 
 
 # Sovelluksen päätoiminallisuudet
 
-Tilin luominen:
+## **Tilin luominen:**
 
 ![create account](https://github.com/user-attachments/assets/c70577f0-704a-4c53-8ad9-2c0b9d1a50e6)
 
 
-Sisäänkirjautuminen:
+## **Sisäänkirjautuminen:**
 
 ![Login](https://github.com/user-attachments/assets/3611e9e9-7389-4d21-8f54-fc23ff16b239)
 
 
-Budjetin luominen:
+## **Budjetin luominen:**
 
 ![create budget](https://github.com/user-attachments/assets/65bb06b0-3b5f-41aa-92b9-9210e9cdcf94)
 
 
-Menojen lisääminen:
+## **Menojen lisääminen:**
 
 ![add expense](https://github.com/user-attachments/assets/22eaa88a-66f7-4e7f-ad50-8d1c4405c7e4)
 
