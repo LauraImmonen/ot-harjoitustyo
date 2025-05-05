@@ -58,18 +58,24 @@ class CreateBudgetPage:
     #made by ChatGPT, modified by me
     def show_message(self, message, color="pink"):
         self.message_label.config(text=message, bg=color)
-        self.root.after(1400, lambda: self.message_label.config(text=""))
+        self.root.after(1900, lambda: self.message_label.config(text=""))
      #AI generated code ends
 
     def create_budget(self):
         budget = self.budget_entry.get()
         username = get_current_user()
 
-        message = create_budget(budget, username)
+        try:
+            message = create_budget(budget, username)
 
-        if message == "Budget created successfully!":
-            self.show_message(message)
-            self.root.after(1400, self.redirect_to_home_page)
+            if message == "Budget created successfully!":
+                self.show_message(message)
+                self.root.after(1900, self.redirect_to_home_page)
+
+        #AI generated
+        except ValueError as e:
+            self.show_message(str(e))
+        #AI generated code ends
 
     def redirect_to_home_page(self):
         from ui.home_page import HomePage

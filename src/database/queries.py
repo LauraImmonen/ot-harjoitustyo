@@ -30,7 +30,7 @@ def login_by_username(username):
 
     return user if user else None
 
-#add budget query made by ChatGPT
+#AI generated code starts
 def add_budget(budget, username):
     connection = get_connection()
     cursor = connection.cursor()

@@ -6,10 +6,32 @@ def check_budget(username):
     return budget
 
 def create_budget(budget, username):
+    if budget == "":
+        raise ValueError("Budget cannot be empty!")
+    try:
+        budget = float(budget)
+    except ValueError as exc:
+        raise ValueError("Budget must be a number!") from exc
+    if budget <= 0:
+        raise ValueError("Budget cannot be 0 or below!")
+
     add_budget(budget, username)
     return "Budget created successfully!"
 
 def add_expenses(username, amount, description):
+    if amount == "":
+        raise ValueError("Amount cannot be empty!")
+    try:
+        amount = float(amount)
+    except ValueError as exc:
+        raise ValueError("Amount must be a number!") from exc
+    #AI generated
+    if any(char.isdigit() for char in description):
+    #AI generated code ends
+        raise ValueError("Description must be a word (no numbers allowed)!")
+    if amount <= 0:
+        raise ValueError("Amount cannot be 0 or below!")
+
     user_id = get_user_id(username)
     add_expense(user_id, amount, description)
     return "Expense added successfully!"

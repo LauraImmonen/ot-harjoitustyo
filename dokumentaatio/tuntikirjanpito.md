@@ -11,6 +11,8 @@
 - **Päivä:** 15.4.2025 **Tuntimäärä:** 1h **Tehty:** uusia testejä, testikattavuus nyt yli 90%
 - **Päivä:** 18.4.25 **Tuntimäärä:** 1h **Tehty:** uusi sql kysely, uusi funktio budget_services, käyttäjä näkee listan menoistaan kyseiseltä kuukaudelta.
 - **Päivä:** 25.4.2025 **Tuntimäärä:**1.5h **Tehty:** Lisätty scrollbar HomePage expenses listaan. Uusi testi.
-- **Päivä:** 28.4.2025 **Tuntimäärä:**1h **Tehty:** Paranneltu dokumeentaatiota ja README:tä. Lisätty käyttöohjeet.
+- **Päivä:** 28.4.2025 **Tuntimäärä:**3h **Tehty:** Paranneltu dokumeentaatiota ja README:tä. Lisätty käyttöohjeet.
+- **Päivä** 1.5.2025 **Tuntimäärä:** 4h **Tehty:** Lisätty kuvat, korjattu ettei voi antaa tyhjää tai väärää inputtia.
+- **Päivä** 5.5.2025 **Tuntimäärä:** 1h **Tehty:** Fiksattu dokumentaatiota.
 
-  Yht: 41h
+  Yht: 46h

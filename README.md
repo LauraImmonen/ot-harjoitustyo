@@ -8,7 +8,7 @@ Hän voi tällä hetkellä myös luoda käyttäjätunnuksen ja sieltä hänet uu
 Kirjautumissivulla käyttäjä kirjautuu sisään sovellukseen ja hänet uudelleenohjataan kotisivulle,
 jossa hän voi asettaa kuukausibudjetin jos sitä vielä ei ole, ja jos se on jo asetettu, näkyy se sivulla.
 Budjetti asetetaan erillisellä sivulla jonne käyttäjä uudelleenohjataan napin painalluksella.
-Käyttäjä pystyy myös kirjautumaan ulos kotisivulta. Käyttäjä pystyy myös lisäämään menojaan ja näkemään loppuraportin (onko säästänyt rahaa, vai mennyt yli budjetin tässä kuussa) kotisivulta.
+Käyttäjä pystyy myös kirjautumaan ulos kotisivulta. Käyttäjä pystyy myös lisäämään menojaan ja näkemään loppuraportin (onko säästänyt rahaa, vai mennyt yli budjetin tässä kuussa) kotisivulta. Käyttäjä pystyy nyt myös tarkastella tämän kuun menoja.
 
 # Linkit
 

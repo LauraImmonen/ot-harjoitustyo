@@ -80,20 +80,26 @@ class CreateAccountPage:
     #made by ChatGPT, modified by me
     def show_message(self, message, color="pink"):
         self.message_label.config(text=message, bg=color)
-        self.root.after(1400, lambda: self.message_label.config(text=""))
+        self.root.after(1900, lambda: self.message_label.config(text=""))
      #AI generated code ends
 
     def create_account(self):
         username = self.username_entry.get()
         password = self.password_entry.get()
 
-        message = create_user(username, password)
+        try:
+            message = create_user(username, password)
 
-        if message == "Username already exists! Please choose another username.":
-            self.show_message(message)
-        elif message == "Account created successfully!":
-            self.show_message(message)
-            self.root.after(1400, self.redirect_to_login)
+            if message == "Username already exists! Please choose another username.":
+                self.show_message(message)
+            elif message == "Account created successfully!":
+                self.show_message(message)
+                self.root.after(1900, self.redirect_to_login)
+
+        #AI generated
+        except ValueError as e:
+            self.show_message(str(e))
+        #AI generated code ends
 
     def redirect_to_login(self):
         self.frame.destroy()

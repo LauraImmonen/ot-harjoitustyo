@@ -46,6 +46,14 @@ class TestAccountService(unittest.TestCase):
         create_user(self.username, self.password)
         self.assertEqual(validate_login(self.wrong_username, self.password), "Username not found!")
 
+    def test_create_user_and_login(self):
+        self.assertEqual(create_user(self.username, self.password), "Account created successfully!")
+        create_user(self.username, self.password)
+        self.assertEqual(create_user(self.username, self.password), "Username already exists! Please choose another username.")
+        self.assertEqual(validate_login(self.wrong_username, self.password), "Username not found!")
+        self.assertEqual(validate_login(self.username, self.wrong_password), "Incorrect password!")
+        self.assertEqual(validate_login(self.username, self.password), "Logged in successfully!")
+
     def delete_test_expenses(self):
         connection = get_connection()
         cursor = connection.cursor()
@@ -57,7 +65,7 @@ class TestAccountService(unittest.TestCase):
 
     def test_create_budget(self):
         create_user(self.username, self.password)
-        self.assertEqual(create_budget(self.username, self.budget), "Budget created successfully!")
+        self.assertEqual(create_budget(self.budget, self.username), "Budget created successfully!")
 
     def test_get_budget(self):
         create_user(self.username, self.password)

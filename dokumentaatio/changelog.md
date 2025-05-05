@@ -29,5 +29,9 @@
 - uusi sql kysely
 - uusia testejä
 - käyttäjä näkee kyseisen kuukauden lisätyt menot
-- coverage-report 100%
 - lisätty käyttöohjeet
+
+## **Viikko 7**
+
+- lisätty kuvat kansio ja sinne kaikki kuvat githubista
+- käyttäjä ei enää pysty lisäämään tyhjiä tai vääränlaisia inputteja

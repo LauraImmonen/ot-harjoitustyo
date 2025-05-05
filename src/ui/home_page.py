@@ -184,7 +184,7 @@ class HomePage:
 
     def show_message(self, message, color="pink"):
         self.message_label.config(text=message, bg=color)
-        self.root.after(1400, lambda: self.message_label.config(text=""))
+        self.root.after(1900, lambda: self.message_label.config(text=""))
     #AI generated code stops
 
     def redirect_to_create_budget_page(self):
@@ -194,12 +194,20 @@ class HomePage:
         CreateBudgetPage(self.root)
 
     def add_expense_command(self):
-        expense = float(self.expenses_entry.get())
+        expense = self.expenses_entry.get()
         description = self.expense_description_entry.get()
-        message = add_expenses(get_current_user(), expense, description)
-        self.show_message(message)
+
+        if description == "":
+            description = "Not specified"
+
+        try:
+            message = add_expenses(get_current_user(), expense, description)
+            self.show_message(message)
 
 #AI generated code starts
+        except ValueError as e:
+            self.show_message(str(e))
+
         self.expenses_entry.delete(0, tk.END)
         self.expense_description_entry.delete(0, tk.END)
 
