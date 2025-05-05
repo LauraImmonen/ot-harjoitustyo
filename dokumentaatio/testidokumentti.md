@@ -12,7 +12,8 @@ SetUp metodini sisältää kaikki testeissä käytettävät inputit esim. käytt
 
 Testikattavuus on 78%.
 
-(lisää kuva) (lisää myös kuva kansioon)
+![coverage_report_78_procent](https://github.com/user-attachments/assets/e7a35520-bc9b-4a92-909b-0d1dfb7e0b70)
+
 
 Testaamatta jäi virheilmoitukset, joita tulee kun käyttäjä lisää vääränlaisen tai tyhjän inputin.
 
@@ -26,4 +27,4 @@ Olen asentanut sovelluksen käyttöohjeideni mukaan ja testannut sitä eri käyt
 
 # Toiminnallisuudet
 
-Olen testannut kaikki määrittelydokumenttini ja käyttöohjeissa olevat toiminnallisuudet läpi. Olen kokeillut täyttää myös virheellisiä ja tyhjiä arvoja kaikkiin syötekenttiin testatakseni, ettei sovellus kaadu, ja että virheviestit näkyvät oikein.
+Olen testannut kaikki määrittelydokumenttini ja käyttöohjeissa olevat toiminnallisuudet läpi. Olen kokeillut täyttää myös virheellisiä ja tyhjiä arvoja kaikkiin syötekenttiin nähdäkseni, ettei sovellus kaadu ja että virheviestit näkyvät oikein.
